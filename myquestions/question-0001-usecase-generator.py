@@ -295,7 +295,7 @@ def generar_caso_de_uso_emparejar_pacientes_similares() -> dict:
                 "treatment_col": treatment_col,
                 "feature_cols": list(feature_cols),
             },
-            #"output": expected_output.copy(deep=True),
+            "output": expected_output.copy(deep=True),
         }
 
     raise RuntimeError(
@@ -303,5 +303,3 @@ def generar_caso_de_uso_emparejar_pacientes_similares() -> dict:
         "Vuelva a ejecutar la función."
     )
 
-a= question_0001_usecase_generator()
-print(a)
