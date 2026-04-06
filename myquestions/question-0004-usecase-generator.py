@@ -175,7 +175,7 @@ def generar_caso_de_uso_calcular_correlacion_canonica() -> dict:
                 "habit_cols": list(habit_cols),
                 "result_cols": list(result_cols),
             },
-            #"output": expected_output.copy(deep=True),
+            "output": expected_output.copy(deep=True),
         }
 
     raise RuntimeError(
