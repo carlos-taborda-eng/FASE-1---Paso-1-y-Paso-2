@@ -150,7 +150,7 @@ def generar_caso_de_uso_estimar_densidad_recorridos() -> dict:
                 "bandwidth": bandwidth,
                 "num_points": num_points,
             },
-            #"output": expected_output.copy(deep=True),
+            "output": expected_output.copy(deep=True),
         }
 
     raise RuntimeError(
