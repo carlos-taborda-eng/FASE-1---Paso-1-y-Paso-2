@@ -141,7 +141,7 @@ def generar_caso_de_uso_estimar_covarianza_regularizada() -> dict:
                 "df": df.copy(deep=True),
                 "feature_cols": list(feature_cols),
             },
-            #"output": expected_output.copy(deep=True),
+            "output": expected_output.copy(deep=True),
         }
 
     raise RuntimeError(
